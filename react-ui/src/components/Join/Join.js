@@ -26,7 +26,6 @@ return (<div>
                     autoLoad={false}
                     fields="name,email,picture"
                     callback={responseFacebook}
-                    scope="public_profile,user_friends"
                 />
         }
 
