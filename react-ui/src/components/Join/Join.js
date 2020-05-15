@@ -22,7 +22,7 @@ return (<div>
                 <Redirect to={redirectUrl} />
             :
                 <FacebookLogin
-                    appId="2417264378305959"
+                    appId="2830040540438926"
                     autoLoad={false}
                     fields="name,email,picture"
                     callback={responseFacebook}
