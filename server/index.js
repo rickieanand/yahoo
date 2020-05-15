@@ -30,7 +30,7 @@ if (!isDev && cluster.isMaster) {
   const server = http.createServer(app)
   const io = socketio(server)
   app.use(cors())
-  app.use(router)
+//  app.use(router)
     // Priority serve any static files.
   app.use(express.static(path.resolve(__dirname, '../react-ui/build')));
 
