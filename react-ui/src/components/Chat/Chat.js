@@ -42,7 +42,7 @@ const sendmouse = (xpos, ypos) => {
   	socket.emit('mouse',data);
 }
 
-const ENDPOINT = 'http://localhost:5000/'
+const ENDPOINT = 'https://yahoo-chatroom.herokuapp.com:5000/'
 const Chat = ({location}) => {
     const [name, setName] = useState('')
     const [room, setRoom] = useState('')
