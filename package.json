@@ -1,7 +1,7 @@
 {
-  "name": "heroku-cra-node",
+  "name": "yahoo",
   "version": "3.0.0",
-  "description": "How to use create-react-app with a custom Node API on Heroku",
+  "description": "vintage yahoo chatroom",
   "engines": {
     "node": "10.x"
   },
@@ -14,11 +14,14 @@
     "react-ui/node_modules"
   ],
   "dependencies": {
-    "express": "^4.16.4"
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.3",
+    "socket.io": "^2.3.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mars/heroku-cra-node.git"
+    "url": "https://github.com/rickieanand/yahoo.git"
   },
   "keywords": [
     "node",
